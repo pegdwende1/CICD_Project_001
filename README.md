@@ -109,14 +109,14 @@
     #### NOTE: Update Your Jenkins file with your Slack Channel Name
     - Go back to your local, open your "Jenkins-CICD-Project" repo/folder/directory on VSCODE
     - Open your "Jenkinsfile"
-    - Update the slack channel name on line "97" (there about)
+    - Update the slack channel name on line "133" (there about)
     - Change name from "cicd-project-alerts" (or whatever name thst's there) to yours
     - Add the changes to git, commit and push to GitHub
     - Confirm the changes are available on GitHub
 		- Save and Push to GitHub
 
 ## Configure All Systems
-### Configure Promitheus
+### Configure Prometheus
   - Login/SSH to your Prometheus Server
   - Clone the following repository: https://github.com/awanmbandi/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
